@@ -1,0 +1,17 @@
+.box{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 40px;
+    border: 2px solid cadetblue;
+    background-color: coral;
+    /* width transition time spent 10s speed linear (same speed) delay 2s */
+
+    /* transition both just use ,(comma) */
+    /* use css property in transition */
+    transition: width 3s ease 1s,height 3s ease 1s,transform 3s;
+}
+.box:hover{
+    width: 200px;
+    height: 200px;
+    transform: rotate(180deg);
+}
