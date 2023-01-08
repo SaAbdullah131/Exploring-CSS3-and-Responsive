@@ -2,6 +2,7 @@
     width: 100px;
     height: 100px;
     margin-bottom: 40px;
+    padding: 10px;
     border: 2px solid cadetblue;
     background-color: coral;
     /* width transition time spent 10s speed linear (same speed) delay 2s */
