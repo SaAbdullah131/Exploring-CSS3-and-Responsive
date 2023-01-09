@@ -1,0 +1,30 @@
+.box{
+    width:150px;
+    height:150px;
+    border: 2px solid purple;
+}
+#box-3{
+    color:peru;
+    /* display: none; */
+    visibility: hidden;
+}
+:root {
+    --primary-color:green;
+    --secondary-color:purple;
+}
+h1{
+    color:slateblue;
+    color: var(--primary-color)
+}
+#heading-3{
+    border: 2px solid var(--primary-color);
+}
+p{
+    border-bottom: 3px solid var(--primary-color);
+}
+.box{
+    background-color: var(--primary-color);
+}
+.pond{
+    background-color: var(--secondary-color);
+}
